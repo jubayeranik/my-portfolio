@@ -1,3 +1,39 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.5rem;
+}
+
+.developer-color {
+    color: #7051EE;
+}
+
+section {
+    display: flex;
+    background-color: aliceblue;
+    min-height: 710px;
+}
+
+.button-style {
+    text-decoration: none;
+    color: white;
+    background-color: #7051ee;
+    padding: 20px 50px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 9%;
+
+}
+
+.half-width img {
+    width: 80%;
+    border-radius: 50%;
 }

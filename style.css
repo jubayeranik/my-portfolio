@@ -6,18 +6,34 @@ body {
 h1 {
     font-size: 55px;
     line-height: 1.5rem;
+    color: #3a395e;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 1.4rem;
+    color: #3a395e;
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 1.4rem;
+    color: #3a395e;
+}
+
+p {
+    color: #6e6d8f;
 }
 
 .developer-color {
     color: #7051EE;
 }
 
-section {
+.flext-container {
     display: flex;
-    background-color: aliceblue;
-    align-items: center;
-    min-height: 550px;
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 .button-style {
@@ -38,4 +54,30 @@ section {
 .half-width img {
     width: 80%;
     border-radius: 50%;
+}
+
+.my-services {
+    text-align: center;
+}
+
+.services-box {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgb(200, 200, 200);
+    border-radius: 30px;
+
+}
+
+#custom-website {
+    border-left: 5px solid tomato;
+}
+
+#wordpress-website {
+    border-left: 5px solid blue;
+}
+
+footer {
+    text-align: center;
 }

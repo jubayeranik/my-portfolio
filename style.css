@@ -15,7 +15,8 @@ h1 {
 section {
     display: flex;
     background-color: aliceblue;
-    min-height: 710px;
+    align-items: center;
+    padding: 50px 0;
 }
 
 .button-style {

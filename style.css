@@ -16,6 +16,7 @@ section {
     display: flex;
     background-color: aliceblue;
     align-items: center;
+    min-height: 550px;
     padding: 50px 0;
 }
 
@@ -32,7 +33,6 @@ section {
 .half-width {
     width: 50%;
     padding-left: 9%;
-
 }
 
 .half-width img {
